@@ -1,0 +1,88 @@
+.hotelsList
+{
+   border-collapse: collapse;
+   border: 1px solid #e3e3e3;
+   width: 100%;
+}
+
+.hotelsList td, .hotelsList
+th {
+   text-align: left;
+   padding: 0.7rem 0;
+   /* padding-right:6rem; */
+   padding-left: 0.5rem;
+   font-size: .9rem;
+   
+}
+
+
+.hotelsList td:nth-of-type(2), .hotelsList
+th:nth-of-type(2) {
+   text-align: left;
+}
+
+
+.hotelsList td:first-of-type, .hotelsList
+th:first-of-type {
+   text-align: left;
+   padding-right: 1rem;
+}
+
+
+.hotelsList td:last-of-type, .hotelsList
+th:last-of-type {
+   padding-right: 1rem;  
+}
+
+.hotelsList td:last-of-type  button
+{
+   background-color: white;
+   border: 1px dotted #f094a6;
+   margin-left: 1rem;
+   padding: 0.5rem 1rem;
+   border-radius: 8px;
+   color: #de2749;
+}
+
+.hotelsList td:last-of-type  button:hover
+{
+   background-color: #f094a6;
+   cursor: pointer;
+}
+
+
+.hotelsList td span
+{
+   margin-left: 1rem;
+}
+
+.hotelsList td{
+   border-top: 1px solid #e3e3e3;
+   border-bottom: 1px solid #e3e3e3;
+}
+
+
+.hotelsList thead tr th span
+{
+   border-left: 1px solid #e3e3e3;
+   padding-left: 1rem;
+}
+
+.hotelsList td:last-of-type div  button
+{
+   color: #ffc107;
+   border: 1px dotted #ffc10792;
+} 
+
+.hotelsList td:last-of-type div  button:hover
+{
+   background-color: #ffc10766;
+} 
+
+.hotelsList td:last-of-type
+{
+   display: flex;
+   padding-right: 0;
+   box-sizing: border-box;
+}
+

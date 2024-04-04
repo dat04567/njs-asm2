@@ -1,0 +1,39 @@
+.hotels
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   row-gap: 1rem;
+   margin-top: 1rem;
+}
+
+.hotels article
+{
+   width: 95%;
+}
+
+.header-hotels
+{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-hotels button:hover
+{
+   background-color: #a2ff8b88;
+   cursor: pointer;
+}
+.header-hotels a 
+{
+   height: 50%;
+}
+.header-hotels button
+{
+   height: 100%;
+   font-size: 1rem;
+   color: #428e2f;
+   border: 2px solid #428e2f;
+   background-color: white;
+   border-radius: 4px;
+}

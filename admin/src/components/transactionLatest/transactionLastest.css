@@ -1,0 +1,121 @@
+
+
+.transactionLastest {
+   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+   border-radius: 8px;
+   padding: 1rem 1rem;
+   width: 100%;
+}
+.transactionLastest h2 
+{
+   color: #878f9d;
+   font-weight: 500;
+   font-size: 1.3rem;
+}
+.transactionContainer {
+   display: flex;
+   justify-content: center; 
+   width: 95%;
+}
+
+.transaction
+{
+   border-collapse: collapse;
+}
+
+.transaction td, .transaction 
+th {
+   text-align: left;
+   padding: 0.7rem 0;
+   padding-right: 1rem;
+   padding-left: 0.5rem;
+   font-size: .9rem;
+}
+
+
+.transaction td:nth-of-type(2), .transaction 
+th:nth-of-type(2) {
+   text-align: left;
+}
+
+
+.transaction td:first-of-type, .transaction 
+th:first-of-type {
+   text-align: left;
+   padding-right: 1rem;
+}
+
+.transaction td:last-of-type,
+th:last-of-type {
+   padding-right: 1rem;
+   
+}
+
+.transaction td:last-of-type span
+{
+   background-color: #f5b8ad;
+   color: #3d8d2a;
+   padding: 0.5rem;
+   border-radius: 8px;
+
+}
+
+.transaction td span
+{
+   margin-left: 1rem;
+}
+
+.transaction td{
+   border-top: 1px solid #e3e3e3;
+   border-bottom: 1px solid #e3e3e3;
+}
+
+
+.transaction thead tr th span
+{
+   border-left: 1px solid #e3e3e3;
+   padding-left: 1rem;
+}
+
+.transactionLastest article {
+   border: 1px solid #e3e3e3;
+}
+
+.transactionLastest
+{
+   padding-bottom: 0;
+}
+
+.transactionLastest article table{
+   margin-bottom: 4rem;
+   width: 100%;
+}
+
+
+.transactionLastest article div{
+   border-top: 1px solid #e3e3e3;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.transactionLastest article div{
+   display: flex;
+   align-items: center;
+   font-size: 1rem;
+}
+.transactionLastest article div p{
+   margin-right: 2rem;
+}
+.transactionLastest article div svg:last-of-type{
+   padding-right: 1rem;
+   padding-left: 1rem;
+}
+.transactionLastest article div svg{
+   font-size: 1rem;
+   color: #bfbfbf;
+}
+
+.transaction-list
+{
+   margin-top: 3rem;
+}

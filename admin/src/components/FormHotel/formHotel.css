@@ -1,0 +1,69 @@
+.form-hotel {
+   width: 95%;
+   margin-top: 2rem;
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+   padding: 1.5rem 3rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 20rem;
+   row-gap: 1.5rem;
+   box-sizing: border-box;
+}
+
+.form-hotel div {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+
+}
+
+.form-hotel div label {
+   margin-bottom: .3rem;
+}
+
+.form-hotel div input {
+   outline: none;
+   border: none;
+   border-bottom: 1px solid #848484;
+   padding-bottom: .5rem;
+   font-size: 1rem;
+
+}
+
+.feature {
+   width: 10%;
+}
+
+.form-hotel div:last-of-type {
+   grid-column: 1 /-1;
+}
+
+
+.rooms {
+   resize: none;
+   border: 1px solid #848484;
+   height: 5rem;
+   font-size: .9rem;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-hotel .submit {
+   padding: .5rem;
+   width: 30%;
+   color: white;
+   background-color: #008080;
+   border: 1px solid #55a7a7;
+}
+
+
+
+.form-hotel .submit:hover {
+   background-color: #55a7a7;
+   cursor: pointer;
+}
+
+
+.form-hotel .submit:disabled {
+   background-color: #55a7a7;
+   cursor: auto;
+}

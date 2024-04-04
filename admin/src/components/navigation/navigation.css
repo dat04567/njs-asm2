@@ -1,0 +1,81 @@
+.navigation
+{
+   border-right: 1px solid #e9e5e5;
+   height: 100vh;
+   /* grid-area: menu; */
+   grid-column: 1 ;
+}
+.list
+{
+   margin: 0;
+   list-style: none;
+   padding: 1.3rem 0 0 .8rem;
+}
+.list li ul li a span 
+{
+   color:#8c9dbe ;
+   text-transform: none;
+}
+.list li ul  li a 
+{
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   column-gap: .5rem;
+   color: #7451f8;
+   padding: .3rem;
+}
+
+.list li ul li a:hover
+{
+   background-color: #ece8ff;
+}
+
+.list li ul li
+{  
+   margin-bottom: .3rem;
+   width: 100%;
+}
+.list li ul 
+{
+   list-style: none;
+   padding: 0;
+   padding-left: 1rem;
+   padding-top: 1rem;
+}
+.list li
+{
+   text-transform: uppercase;
+   color: #afa4a2;
+   font-weight: bold;
+   font-size: .9rem;
+}
+
+
+.list li ul li form button 
+{
+   color:#8c9dbe;
+   display: flex;
+   align-items: center;
+   border: none;
+   background-color: inherit;
+   font-size: .9rem;
+   column-gap: .5rem;
+   font-weight: bold;
+}
+
+.list li ul li form button svg
+{
+    color: #7451f8;
+}
+
+
+.list li ul li form:hover,
+.list li ul li form button:hover
+{
+   background-color: #ece8ff;
+   cursor: pointer;
+}
+
+
+

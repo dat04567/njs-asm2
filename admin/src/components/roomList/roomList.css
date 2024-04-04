@@ -1,0 +1,86 @@
+.roomsList
+{
+   border-collapse: collapse;
+   border: 1px solid #e3e3e3;
+   width: 100%;
+}
+
+.roomsList td,
+th {
+   text-align: left;
+   padding: 0.7rem 0;
+   padding-left: 0.5rem;
+   font-size: .9rem;
+}
+
+
+.roomsList td:nth-of-type(2),
+th:nth-of-type(2) {
+   text-align: left;
+}
+
+
+.roomsList td:first-of-type,
+.roomsList th:first-of-type {
+   text-align: left;
+   width: 1rem;
+}
+
+
+.roomsList td:last-of-type,
+th:last-of-type {
+   padding-right: 1rem;  
+}
+
+.roomsList td:last-of-type  button
+{
+   background-color: white;
+   border: 1px dotted #f094a6;
+   margin-left: 1rem;
+   padding: 0.5rem 1rem;
+   border-radius: 8px;
+   color: #de2749;
+}
+
+.roomsList td:last-of-type  button:hover
+{
+   background-color: #f094a6;
+   cursor: pointer;
+}
+
+
+.roomsList td span
+{
+   margin-left: 1rem;
+}
+
+.roomsList td{
+   border-top: 1px solid #e3e3e3;
+   border-bottom: 1px solid #e3e3e3;
+}
+
+
+.roomsList thead tr th span
+{
+   border-left: 1px solid #e3e3e3;
+   padding-left: 1rem;
+}
+
+.roomsList td:last-of-type div  button
+{
+   color: #ffc107;
+   border: 1px dotted #ffc10792;
+} 
+
+.roomsList td:last-of-type div  button:hover
+{
+   background-color: #ffc10766;
+} 
+
+.roomsList td:last-of-type
+{
+   display: flex;
+   padding-right: 0;
+   box-sizing: border-box;
+}
+

@@ -1,0 +1,25 @@
+.formAuth {
+   display: flex;
+   margin-top: 2rem;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.formAuth input {
+   padding: .7rem 4rem .7rem .5rem;
+   outline:none;
+}
+
+.formAuth input:not(:focus) {
+   background-color: #e7f0fe;
+}
+.formAuth button {
+   padding: .6rem 2rem;
+   color: white;
+   background-color: #0171c2;
+   font-weight: 500;
+   border-radius: 8px;
+   border: none;
+   cursor: pointer;  
+   border: 1px solid black;
+}

@@ -1,0 +1,7 @@
+.dashbroad
+{
+   display: flex;
+   flex-direction: column;
+   row-gap: 3rem;
+   align-items: center;
+} 
