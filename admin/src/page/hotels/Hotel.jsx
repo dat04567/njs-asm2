@@ -41,7 +41,7 @@ export async function action({ request }) {
          window.confirm('Delete success');
          return response;
       } catch (error) {
-         window.confirm(error.response.data.error);
+         window.confirm(error.response.data.message);
          return error;
       }
    } else {
